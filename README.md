@@ -1,2 +1,43 @@
-# WordStorm
-This tool was created to improve my working efficiency but broke me before I ran the script.
+__        __              _     _____ _                           
+\ \      / /             | |   / ____| |                          
+ \ \ /\ / /__  _ __ ___  | | _| (___ | |_ ___  _ __ ___ ___  ___  
+  \ V  V / _ \| '__/ _ \ | |/ /\___ \| __/ _ \| '__/ __/ _ \/ __| 
+   \_/\_/\___/|_|  \___/ |___/ |____/ \__\___/|_|  \___\___/\___| 
+                    ~ WordStorm ~
+---
+# ⚡ WordStorm – Custom Wordlist Generator in Python
+
+**WordStorm** is a lightweight yet powerful Python script that creates highly customizable password wordlists from base words, numbers, and symbols. Whether you're learning password attacks, performing ethical pentesting, or building CTF resources — this tool is for you.
+
+> ✅ Built from scratch as a personal challenge to learn WiFi security and custom wordlist generation  
+> ✅ Generates up to **12 million** unique combinations (scalable)
+> ✅ Tailored for **targeted OSINT-based wordlist creation**
+
+---
+
+## 🔧 How It Works
+
+1. **Base Words Input**  
+   You manually define a list of base words in the script: names, nicknames, birthdays, email handles, etc.
+
+2. **Numbers & Symbols**  
+   Add common or target-specific numbers and special characters to enhance combinations.
+
+3. **Smart Combinations**  
+   The script generates combinations like:
+   - `base + number` → john123
+   - `symbol + base` → @john
+   - `base + symbol + number` → john@007
+   - Variants with capitalizations
+
+4. **Output**  
+   The final wordlist is written to a `.txt` file containing potentially **millions** of custom combinations.
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/gsubigya/WordStorm.git
+cd WordStorm
+python wordstorm.py
