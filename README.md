@@ -1,10 +1,10 @@
 # ⚡ WordStorm – Custom Wordlist Generator in Python
 
-**WordStorm** is a lightweight yet powerful Python script that creates highly customizable password wordlists from base words, numbers, and symbols. Whether you're learning password attacks, performing ethical pentesting, or building CTF resources — this tool is for you.
+**WordStorm** is a lightweight yet powerful Python script that creates highly customizable password wordlists from base words, numbers, and symbols. Whether you're learning password attacks, performing ethical pentesting, or building CTF resources this tool is for you.
 
-✅ Built from scratch as a personal challenge to learn WiFi security and custom wordlist generation.
-✅ Generates up to **12 million** unique combinations (scalable).
-✅ Tailored for **targeted OSINT-based wordlist creation**.
+1) Built from scratch as a personal challenge to learn WiFi security and custom wordlist generation.
+2) Generates up to **12 million** unique combinations (scalable).
+3) Tailored for **targeted OSINT-based wordlist creation**.
 
 ---
 
